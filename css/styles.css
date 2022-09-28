@@ -29,6 +29,11 @@ p {
     margin: 0;
 }
 
+button {
+
+    cursor: pointer;
+}
+
 .page-header {
     border-bottom: 1px solid #ececec;
 }
@@ -121,7 +126,8 @@ p {
     
 }
 
-.item-contacts:hover {
+.item-contacts:hover,
+.item-contacts:focus {
 
     color: var(--accent);
 }
@@ -548,7 +554,8 @@ margin-left: auto;
 
 }
 
-.link-clients:hover {
+.link-clients:hover,
+.link-clients:focus {
     color: var(--accent);
     border: 1px solid var(--accent);
 
@@ -720,8 +727,9 @@ margin-left: auto;
     justify-content: center;
     margin-bottom: 50px;
    
-
 }
+
+
 
 
 
@@ -751,7 +759,7 @@ margin-right: 8px;
     font-size: 16px;
     line-height: 1.62;
     letter-spacing: 0.03em;
-    cursor: pointer;
+    
 }
 
 .filtr {
@@ -767,7 +775,7 @@ margin-right: 8px;
     font-size: 16px;
     line-height: 1.62;
     letter-spacing: 0.03em;
-    cursor: pointer;
+    
 }
 
 
