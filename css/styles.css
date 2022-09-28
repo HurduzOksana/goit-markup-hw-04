@@ -102,7 +102,6 @@ button {
     display: flex;
     margin-left: auto;
     align-items: center;
-   
     
 }
 
@@ -135,8 +134,12 @@ button {
 
 .contact .mail,
 .contact .phone {
+   
+    display: flex;
     padding-top: 32px;
     padding-bottom: 32px;
+    align-items: center;
+    
 }
 
 .site-nav .item:not(:last-child) {
@@ -154,6 +157,7 @@ button {
 .contacts-icon {
     margin-right: 10px;
     fill: currentColor;
+   
 }
 
 
